@@ -1,6 +1,6 @@
 # ejax
 
-Windows EVTX to JSON and XML converter
+Windows EVTX to JSON and XML converter. Comes in handy when playing blue team CTFs.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ pip install xmltodict
 
 ## Usage
 
-```sh
+```powershell
 python ejax.py Windows-Security.evtx -m json
 python ejax.py Windows-Security.evtx -m xml
 ```
